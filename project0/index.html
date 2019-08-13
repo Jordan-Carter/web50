@@ -9,42 +9,41 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
     <body>
-        <nav class='navbar navbar-expand-lg navbar-dark bg-dark'>
-            <a class='navbar-brand' href='index.html'>Jordan</a>
-            <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarContent'>
-                <span class='navbar-toggler-icon'></span>
-            </button>
-
-            <div class='collapse navbar-collapse' id='navbarContent'>
-                <ul class='navbar-nav mr-auto'>
-                    <li class='nav-item active'>
-                        <a class='nav-link' href='index.html'>Home</a>
-                    </li> 
-                    <li>
-                        <a class='nav-link' href='about.html'>About</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
         <div class='jumbotron jumbotron-fluid' id='jumbo'>
             <h1 class='display-4'>Jordan Carter</h1>
             <hr class='my-4'>
-            <a class='btn btn-primary btn-lg' href='contact.html' role='button'>About Me</a>
+            <a class='btn btn-primary btn-lg' href='contact.html' role='button'>Do Not Press</a>
         </div> 
 
-        <div class='container' id='homeCards'>
+        <div class='container-fluid' id='homeLinks'>
             <div class='row'>
-                <div class='col-sm-12 col-md-6 col-lg-3'>
-                    Test
+                <div class='mt-4 cards col-xs-6 col-sm-12 col-md-6 col-lg-3' id='aboutDiv'>
+                    <a href='about.html'>
+                        <div class='cards' id='aboutLink'>
+                            <div class='text'>About</div>
+                        </div>
+                    </a>
                 </div>      
-                <div class='col-sm-12 col-md-6 col-lg-3'>
-                    Test
+                <div class='mt-4 cards col-xs-6 col-sm-12 col-md-6 col-lg-3' id='contactDiv'>
+                    <a href='contact.html'>
+                        <div class='cards' id='contactLink'>
+                            <div class='text'>Contact</div>
+                        </div>
+                    </a>
                 </div>      
-                <div class='col-sm-12 col-md-6 col-lg-3'>
-                    Test
+                <div class='mt-4 cards col-xs-6 col-sm-12 col-md-6 col-lg-3' id='projectsDiv'>
+                    <a href='projects.html'>
+                        <div class='cards' id='projectsLink'>
+                            <div class='text'>Projects</div>
+                        </div>
+                    </a>
                 </div>      
-                <div class='col-sm-12 col-md-6 col-lg-3'>
-                    Test
+                <div class='mt-4 cards col-xs-6 col-sm-12 col-md-6 col-lg-3' id='resumeDiv'>
+                    <a href='resume.html'>
+                        <div class='cards' id='resumeLink'>
+                            <div class='text'>Resume</div>
+                        </div>
+                    </a>
                 </div>      
             </div>
         </div>

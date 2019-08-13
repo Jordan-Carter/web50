@@ -3,5 +3,73 @@ body {
 }
 
 #jumbo {
-  padding-left: 20px
+  padding-left: 20px;
+  background-color: #0d2c54;
+  color: white;
+  height: 350px;
 }
+
+#homeLinks .cards {
+  height: 300px;
+  text-align: center;
+  font-size: 30px;
+}
+#homeLinks .cards :hover {
+  font-size: 35px;
+  text-decoration: none;
+}
+#homeLinks .text {
+  padding-top: 25%;
+  vertical-align: middle;
+  color: white;
+}
+@media screen and (min-width: 768px) {
+  #homeLinks .cards {
+    height: 360px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #homeLinks .cards {
+    height: 240px;
+  }
+}
+
+#aboutLink {
+  background-color: #f6511d;
+  padding: 5px;
+}
+
+#aboutDiv :hover {
+  background-color: #bf3e16;
+}
+
+#contactLink {
+  background-color: #FFB400;
+  padding: 5px;
+}
+
+#contactDiv :hover {
+  background-color: #cc8e00;
+}
+
+#projectsLink {
+  background-color: #00a6ed;
+  padding: 5px;
+}
+
+#projectsDiv :hover {
+  background-color: #0082ba;
+}
+
+#resumeLink {
+  background-color: #7fb800;
+  padding: 5px;
+}
+
+#resumeDiv :hover {
+  background-color: #5a8400;
+}
+
+/*# sourceMappingURL=style.scss.map */
+
+/*# sourceMappingURL=style.css.map */
