@@ -1,0 +1,29 @@
+    {% extends "layout.html" %}
+
+    {% block title %}
+    Home
+    {% endblock %}
+
+    {% block body %}
+    <h1>{{header}}</h1>
+
+    {% if lorem %}
+        <p>This is a very simple list app. In order to create a list 
+        entry type something into the "list item" textbox and hit
+        submit. Press the clear button to clear all entries.</p>
+    {% endif %}
+
+    <ol>
+    {% for item in items %}
+        <li>{{item}}</li> 
+    {% endfor %}
+    </ol>
+        
+
+    <form action="{{url_for('index')}}" method='post'>
+        <input type='text' name='item' placeholder="list item" autofocus='autofocus'>
+        <br>
+        <input type='submit' value='Submit'>
+        <input type='submit' name='clearButton' value='Clear'>
+    </form>
+    {% endblock %}
